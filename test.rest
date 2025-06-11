@@ -1,0 +1,15 @@
+### TEST GET / WEBSITE
+GET http://localhost:4000/dashboard
+###DATAENDPOINT
+GET http://localhost:4000/api/data
+### DATAENDPOINT FOR ADDING A USER
+POST http://localhost:4000/api/data
+Content-Type: application/json
+{
+
+
+  "name":"drums"
+}
+
+###delete endpoint
+POST http://localhost:3000/api/data
